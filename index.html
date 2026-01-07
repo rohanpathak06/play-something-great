@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Play Something Great</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🎮 Play Something Great</h1>
+    <p>Tell us your mood. We'll handle the rest.</p>
+
+    <select id="mood">
+      <option value="">Choose your mood</option>
+      <option value="relax">Relaxed</option>
+      <option value="competitive">Competitive</option>
+      <option value="story">Story Driven</option>
+      <option value="casual">Casual</option>
+    </select>
+
+    <select id="platform">
+      <option value="">Choose platform</option>
+      <option value="pc">PC</option>
+      <option value="mobile">Mobile</option>
+      <option value="console">Console</option>
+    </select>
+
+    <button onclick="recommendGame()">Recommend a Game</button>
+
+    <div id="result" class="card hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
